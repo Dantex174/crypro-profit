@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Profit</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="section">
+        <div class="section__wrapper">
+            <div class="title">Crypto Profit</div>
+            <div class="sum">
+                <div class="sum__title">Вложение</div>
+                <div class="sum__input">
+                    <input type="text" id="price" placeholder="Введи сумму">
+                </div>
+            </div>
+            <div class="price">
+                <div class="price__box">
+                    <div class="price__title">Цена покупки</div>
+                    <div class="price__input">
+                        <input type="text" id="x1" placeholder="">
+                    </div>
+                </div>
+                <div class="price__box">
+                    <div class="price__title">Цена продажи</div>
+                    <div class="price__input">
+                        <input type="text" id="x2" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <button class="btn" onclick="f1()">Посчитать</button>
+            <div class="total">
+                <div class="result">
+                    <div class="result__title">Результат</div>
+                    <textarea class="'result__area" name="" id="out" cols="10" rows="1" placeholder="Итого сумма"></textarea>
+                </div>
+                <div class="profit">
+                    <div class="profit__title">Профит</div>
+                    <textarea class="'profit__area" name="" id="profit" cols="10" rows="1" placeholder="Прибыль"></textarea>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
