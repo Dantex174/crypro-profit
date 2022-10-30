@@ -8,7 +8,7 @@ body {
 
 .section {
   height: 100vh;
-  background: url(../img/bitcoin-btc-fon-monety-tsvetnye-bitkoin.jpg) center center/cover no-repeat;
+  background: url(../img/1_JwyFozVfi1Lkbu6Dmqin4Q.png) center center/cover no-repeat;
   padding: 40px 10px 0 10px; }
   .section__wrapper {
     display: -webkit-box;
@@ -136,5 +136,14 @@ body {
         border-radius: 15px;
         text-align: center;
         font-size: 25px; }
+  .section .reset {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end; }
+    .section .reset__link {
+      margin-right: 20px; }
 
 /*# sourceMappingURL=style.css.map */

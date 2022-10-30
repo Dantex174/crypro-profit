@@ -11,7 +11,7 @@ body {
 
 .section {
     height: 100vh;
-    background: url(../img/bitcoin-btc-fon-monety-tsvetnye-bitkoin.jpg) center (center/cover) no-repeat;
+    background: url(../img/1_JwyFozVfi1Lkbu6Dmqin4Q.png) center (center/cover) no-repeat;
     padding: 40px 10px 0 10px;
     &__wrapper {
         display: flex;
@@ -144,6 +144,13 @@ body {
                 text-align: center;
                 font-size: 25px;
             }
+        }
+    }
+    .reset {
+        display: flex;
+        justify-content: end;
+        &__link {
+            margin-right: 20px;
         }
     }
 }
